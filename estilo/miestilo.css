@@ -1,0 +1,86 @@
+body{
+    background:#fafafa;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    
+    
+}
+@font-face {
+    font-family: letramolona;
+    src: url(letra2.otf);
+    
+}
+header{
+    background-color:#EFFBF5 ;
+    font-family: letramolona;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    padding: 10px;
+    display: grid;
+}
+nav ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    background:#A9F5D0 ;
+    display: flex;
+    justify-content: center;
+}
+
+nav li a {
+    color: rgb(255, 255, 255);
+    display: block;
+    text-decoration: none;
+    
+    padding: 10px 50px;
+    
+}
+
+nav li a:hover{
+
+    background: #0df29e;
+    color: white;
+}
+
+#miseccion{
+
+    float:left;
+    width: 80%;
+    min-height: 500px;
+    background:#dbfcec;
+    
+}
+
+aside{
+    text-align: center;
+
+    float: left;
+    width: 19%;
+    background:#dbfcec;
+    min-height: 500px;
+    margin-left: 5px;
+    
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    line-height: 50px;
+}
+
+.articulo{
+    color: #fafafa;
+    margin: top 15px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid hsl(0, 0%, 100%);
+    color: rgb(0, 0, 0);
+    
+    display: flex;
+}
